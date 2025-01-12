@@ -20,6 +20,62 @@
             padding: 1em 0;
         }
         nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            div {
+            /*       */
+            color: rgb(0, 0, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            /* text-align: center; */
+          
+            }
+            img{
+                
+                width: 50%;
+                height: 50%;
+            }
+        }
+        @media (max-width: 480px) {
+            header {
+                padding: 15px 0;
+            }
+
+            nav a {
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
+        div {
+            display:flex;
+            color: rgb(0, 0, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            /* text-align: center; */
+        
+    }
+/*         nav {
             display: flex;
             justify-content: center;
             background-color: #333;
@@ -29,15 +85,8 @@
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
-        }
-        div {
-            display:flex;
-            color: rgb(0, 0, 0);
-            padding: 14px 20px;
-            text-decoration: none;
-            /* text-align: center; */
-          
-        }
+        } */
+        
     </style>
 </head>
 <body>
@@ -63,7 +112,7 @@
    <!-- neem tree -->
     <div id="neem">
         <div>
-            <img src="neem tree.jpg" alt="Neem Tree" style="width: auto; height: 500px;"">
+            <img src="neem tree.jpg" alt="Neem Tree">
         </div>
             <ul>
                 <h2><u><i>Neem tree</u></i></h2>
@@ -84,7 +133,7 @@
     <div id="tulsi">
         <div>
         <!-- <p style="display: inline-block;"> -->
-            <img width="auto" src="tulsi.png" alt="Tulsi">
+            <img src="tulsi.png" alt="Tulsi">
         </div>
             <ul>
             <h2><u><i>Tulsi</u></i></h2>
@@ -103,7 +152,7 @@
     <!-- aloe -->
     <div id="aloe">
         <div>
-                <img src="alovera.png" alt="Aloe Vera" style="width: auto;"">
+                <img src="alovera.png" alt="Aloe Vera" >
         </div>
             <ul>
                 <h2><u><i>Aloe Vera</u></i></h2>
@@ -121,7 +170,7 @@
 
     <div id="mint">
             <div>
-                <img src="mint.png" alt="Peppermint" style="width: auto;"">
+                <img src="mint.png" alt="Peppermint" >
             </div>
                 <ul>
                 <h2><u><i> Peppermint</u></i></h2>
@@ -140,7 +189,7 @@
      <!-- Lemongrass -->
      <div id="grass">
             <div>
-                <img src="grass.png" alt="Lemon Grass" style="width: auto;"">
+                <img src="grass.png" alt="Lemon Grass" >
             </div>
                 <ul>
                 <h2><u><i>Lemon Grass</u></i></h2>
@@ -159,7 +208,7 @@
     <!-- Basil -->
      <div id="basil">
             <div>
-                <img src="basil.png" alt="Basil" style="width: auto;"">
+                <img src="basil.png" alt="Basil" >
             </div>
                  <ul>
                 <h2><u><i>Basil</u></i></h2>
@@ -178,7 +227,7 @@
     <!-- betel -->
         <div id="betel">
             <div>
-                <img src="betel.png" alt="Betal" style="width: 500px;"">
+                <img src="betel.png" alt="Betal">
             </div>
                  <ul> 
                 <h2><u><i>Betel</u></i></h2>
